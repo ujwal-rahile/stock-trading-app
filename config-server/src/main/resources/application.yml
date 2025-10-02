@@ -6,5 +6,6 @@ spring:
     config:
       server:
         git:
-          uri: file:///${user.home}/stock-trading-app/config-repo
+          uri: https://github.com/ujwal-rahile/config-repo.git
           default-label: main
+          clone-on-start: true
